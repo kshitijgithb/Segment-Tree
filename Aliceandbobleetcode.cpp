@@ -93,7 +93,7 @@ public:
     }
 int main()
 {
-  vector<int>heights={6,4,8,5,2,7};
+  vector<int>heights={6,4,8,5,2,8};
   vector<vector<int>>queries={{0,1},{0,3},{2,4}};
   vector<int> ans = leftmostBuildingQueries(heights,queries);
 }
